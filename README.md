@@ -22,6 +22,6 @@ Branch delay is regarded as a normal hardware behavior, meaning that the first i
 
 A short piece of MIPS code is attached to the project in folder /code, in order to test the model. The files in /code can be opened and edited in any text pocessing applications, while MARS is specifically preffered. MARS is an open-source, lightweight application developed in Java, intending to simulate the behavior of MIPS CPU. 
 
-To test the project, first open an asm file in MARS. After compiling the source code, a hexdecimal version of the binary code can be exported. **It is exceedingly crucial that the file is named code.txt, and is placed immediately under /CPU_monocycle.**
+To test the project, first open an asm file in MARS. After compiling the source code, a hexdecimal version of the binary code can be exported. **It is exceedingly crucial that the file is named code.txt, and is placed immediately under /CPU_pipeline.**
 
 Thereafter, open the project in ISE and run ISim to inspect the values of all registers. You could compare the values in ISim and those in MARS, or you can also check the value information output in the console.
