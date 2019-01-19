@@ -1,0 +1,19 @@
+
+
+
+// Instantiate the module
+hazard instance_name (
+    .Instr(Instr), 
+    .Clk(Clk), 
+    .Reset(Reset), 
+    .StallF(StallF), 
+    .StallD(StallD), 
+    .FlushE(FlushE), 
+    .Forward_RS_D(Forward_RS_D), 
+    .Forward_RT_D(Forward_RT_D), 
+    .Forward_RS_E(Forward_RS_E), 
+    .Forward_RT_E(Forward_RT_E), 
+    .Forward_RT_M(Forward_RT_M)
+    );
+
+

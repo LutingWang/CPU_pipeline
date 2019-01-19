@@ -1,0 +1,20 @@
+
+
+
+// Instantiate the module
+datapath instance_name (
+    .StallF(StallF), 
+    .StallD(StallD), 
+    .FlushE(FlushE), 
+    .Forward_RS_F_Sel(Forward_RS_F_Sel), 
+    .Forward_RS_D_Sel(Forward_RS_D_Sel), 
+    .Forward_RT_D_Sel(Forward_RT_D_Sel), 
+    .Forward_RS_E_Sel(Forward_RS_E_Sel), 
+    .Forward_RT_E_Sel(Forward_RT_E_Sel), 
+    .Forward_RT_M_Sel(Forward_RT_M_Sel), 
+    .Clk(Clk), 
+    .Reset(Reset), 
+    .IRD(IRD)
+    );
+
+

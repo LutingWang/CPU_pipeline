@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj CPU_pipeline -o C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/grf.tfi -lib work C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips/datapath/2_D//grf.v -module grf -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

@@ -1,0 +1,19 @@
+
+
+
+// Instantiate the module
+ctrl instance_name (
+    .OpCode(OpCode), 
+    .Funct(Funct), 
+    .NPC_Sel(NPC_Sel), 
+    .NPCOp(NPCOp), 
+    .ExtOp(ExtOp), 
+    .ALUSrc(ALUSrc), 
+    .ALUOp(ALUOp), 
+    .MemWrite(MemWrite), 
+    .RegDst(RegDst), 
+    .DataSrc(DataSrc), 
+    .RegWrite(RegWrite)
+    );
+
+

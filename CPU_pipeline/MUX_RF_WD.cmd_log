@@ -1,0 +1,2 @@
+vhdtdtfi -lang verilog -prj CPU_pipeline -o C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/MUX_RF_WD.tfi -lib work C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips/datapath//mux.v -module MUX_RF_WD -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj CPU_pipeline -o C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/MUX_RF_WD.tfi -lib work C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips/datapath//mux.v -module MUX_RF_WD -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

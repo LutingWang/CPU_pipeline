@@ -1,0 +1,79 @@
+ori $t1,$0,4
+ori $t2,$0,4
+jal a
+nop    
+lui $1,0xffff
+a:beq $t1,$t2,c     #jr
+nop
+lui $1,0xfff0
+c:lui $1,0xff00
+
+jal e
+nop    
+lui $1,0xffff
+e:nop
+beq $t1,$t2,f     #jr
+nop
+lui $1,0xfff0
+f:lui $1,0xff00
+
+jal d
+nop
+lui $2,0xffff
+d:jr $ra
+nop
+lui $2,0xfff0
+
+##########第二段
+jal a
+addu $t1,$ra,$ra
+lui $1,0xffff
+a:addu $t2,$ra,$ra
+addu $t3,$ra,$ra
+
+jal c
+sw $ra,-0x3000($ra)
+lui $1,0xffff
+c:sw $ra,-0x3004($ra)
+sw $ra,-0x3008($ra)
+
+jal d
+ori $t1,$ra,0
+lui $1,0xffff
+d:beq $ra,$ra,e
+addu $t1,$0,$ra
+lui $1,0xffff
+e:lui $1,0x000f
+
+ori $t9,$0,0x3048
+
+jal f
+lw $1,-0x302c($ra)
+lui $1,0xffff
+f:lw $1,-0x3030($ra)
+beq $ra,$t9,g
+subu $t1,$ra,$0
+lui $1,0xffff
+g:lui $1,0xf000
+
+############################第三段
+ori $t0,$0,4
+sw $t0,4($0)
+ori $t1,$0,4
+addu $t1,$t1,$t1
+sw $t1,-4($t1)
+lw $t2,-4($t1)
+addu $t3,$t1,$t1
+#users-0
+ori $t1,$0,4
+addu $t2,$t1,$0
+beq $t1,$t2,a
+nop
+lui $1,0xf0f0
+a:ori $t1,$0,0x3000
+ori $t2,$0,0x0048
+addu $t1,$t2,$t1
+jr $t1
+nop
+lui $1,0xf0f0
+lui $1,0x0001

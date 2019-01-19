@@ -1,0 +1,70 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips_tb_isim_beh.exe -prj C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips_tb_beh.prj work.mips_tb work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips/datapath/mux.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips/datapath/mf.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips/datapath/4_M/dm.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips/datapath/3_E/alu.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips/datapath/2_D/npc.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips/datapath/2_D/grf.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips/datapath/2_D/ext.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips/datapath/2_D/cmp.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips/datapath/1_F/pc.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips/datapath/1_F/im.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips/control/ctrl.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips/datapath/5_W/W.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips/datapath/4_M/M.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips/datapath/3_E/E.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips/datapath/2_D/D.v" into library work
+WARNING:HDLCompiler:751 - "C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips/datapath/2_D/D.v" Line 48: Redeclaration of ansi port MF_RS_D_OUT is not allowed
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips/datapath/1_F/F.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips/control/ATDecoder.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips/datapath/datapath.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips/control/hazard.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips/mips.v" into library work
+Analyzing Verilog file "C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips/mips_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips/datapath/2_D/D.v" Line 75: Port ALUSrc is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips/datapath/3_E/E.v" Line 66: Port NPC_Sel is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips/datapath/3_E/E.v" Line 91: Port PC4E is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips/datapath/3_E/E.v" Line 100: Port PC4E is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips/datapath/4_M/M.v" Line 68: Port NPC_Sel is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips/datapath/4_M/M.v" Line 83: Port PC4E is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips/datapath/5_W/W.v" Line 35: Port NPC_Sel is not connected to this instance
+Completed static elaboration
+Fuse Memory Usage: 180852 KB
+Fuse CPU Usage: 671 ms
+Compiling module pc
+Compiling module im
+Compiling module MUX_PC
+Compiling module F
+Compiling module ctrl
+Compiling module grf
+Compiling module cmp
+Compiling module npc
+Compiling module ext
+Compiling module mf
+Compiling module D
+Compiling module alu
+Compiling module MUX_ALU_B
+Compiling module E
+Compiling module dm
+Compiling module M
+Compiling module MUX_RF_A3
+Compiling module MUX_RF_WD
+Compiling module W
+Compiling module datapath
+Compiling module ATDecoder
+Compiling module hazard
+Compiling module mips
+Compiling module mips_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 25 Verilog Units
+Built simulation executable C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips_tb_isim_beh.exe
+Fuse Memory Usage: 191812 KB
+Fuse CPU Usage: 1124 ms

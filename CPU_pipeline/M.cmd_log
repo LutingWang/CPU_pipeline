@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj CPU_pipeline -o C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/M.tfi -lib work C:/Users/ThinkPad/Documents/ISE/CPU_pipeline/CPU_pipeline/mips/datapath/4_M//M.v -module M -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
